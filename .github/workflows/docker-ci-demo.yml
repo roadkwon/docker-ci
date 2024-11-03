@@ -19,7 +19,7 @@ jobs:
         id: docker_meta
         uses: crazy-max/ghaction-docker-meta@v1
         with:
-          images: roadkwon/docker-ci
+          images: kksi/nodejs-ci
           tag-semver: |
             {{version}}
             {{major}}.{{minor}}
